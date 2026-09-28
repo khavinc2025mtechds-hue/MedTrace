@@ -1,0 +1,23 @@
+{
+  "included_maude_reports": 280,
+  "included_recall_records": 100,
+  "sampling": "15 earliest reports per month in 2025 plus 100 latest 2025 records; convenience sample",
+  "large_download_status": "20,000-record attempt did not complete; no large corpus included",
+  "files": [
+    {
+      "file": "data/raw/classification_seed.json",
+      "bytes": 25889,
+      "sha256": "9b1f09163d7ec4572dda709b9cf42f383d2070d06b8cf806efa0db426b8bb51c"
+    },
+    {
+      "file": "data/raw/enforcement_seed.json",
+      "bytes": 1851353,
+      "sha256": "c4b4015b56b0efe16bf8bf35c4c8c494a72bacba0b33678a59c4b7812d42861f"
+    },
+    {
+      "file": "data/raw/openfda_seed.json",
+      "bytes": 2147862,
+      "sha256": "e5a6b84bc909337df83ecfbb9eea1bf33d0aab08e759f262731d7ef0e150f715"
+    }
+  ]
+}
