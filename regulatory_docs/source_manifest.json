@@ -1,0 +1,18 @@
+[
+  {
+    "file": "regulatory_docs/raw/part803.html",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-803",
+    "effective_from": "2026-09-24",
+    "effective_to": "",
+    "retrieved_at": "2026-09-27",
+    "applicability_note": "Current snapshot only; obtain historical text for earlier analysis dates."
+  },
+  {
+    "file": "regulatory_docs/raw/section820_35.html",
+    "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820/subpart-B/section-820.35",
+    "effective_from": "2026-09-24",
+    "effective_to": "",
+    "retrieved_at": "2026-09-27",
+    "applicability_note": "Current snapshot only; obtain historical text for earlier analysis dates."
+  }
+]
