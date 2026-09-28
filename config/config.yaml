@@ -1,0 +1,28 @@
+data:
+  product_codes: [FRN]
+  start_date: '2021-01-01'
+  end_date: '2025-12-31'
+  max_rows: 20000
+  processed: data/processed/processed_maude.csv
+  recalls: data/raw/enforcement_seed.json
+  sample: data/sample/maude_sample.csv
+retrieval:
+  backend: tfidf
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.10
+  index_dir: vector_store/cases
+regulatory:
+  corpus: regulatory_docs/processed/regulatory_chunks.json
+  top_k: 4
+priority:
+  weights:
+    serious_outcome: 35
+    delivery_interruption: 20
+    other_malfunction: 10
+    repeated_reports: 10
+    reporting_spike: 10
+    verified_recall: 15
+  thresholds: {medium: 25, high: 50, critical: 75}
+  repeated_minimum: 3
+workflow: sequential
