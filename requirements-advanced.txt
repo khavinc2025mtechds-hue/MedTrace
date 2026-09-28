@@ -1,0 +1,17 @@
+-r requirements.txt
+# Download model weights only when an advanced command is explicitly run.
+torch>=2.4,<3
+transformers>=4.45,<5
+sentence-transformers>=3.2,<6
+faiss-cpu>=1.9,<2
+spacy>=3.8,<4
+langchain>=1,<2
+langchain-openai>=1,<2
+langchain-ollama>=1,<2
+langgraph>=1,<2
+xgboost>=2.1,<4
+shap>=0.46,<1
+psycopg[binary]>=3.2,<4
+pyarrow>=17,<26
+
+accelerate>=1,<2
