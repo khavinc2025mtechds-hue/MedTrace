@@ -1,0 +1,19 @@
+{
+  "tests_passed": 18,
+  "streamlit_pages_passed": 7,
+  "research_metrics": "not evaluated; reviewed labels required",
+  "verified_on": "2026-09-28",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "fastapi": "0.141.1",
+    "pydantic": "2.13.5",
+    "SQLAlchemy": "2.1.1",
+    "streamlit": "1.64.0",
+    "plotly": "6.9.0",
+    "pytest": "9.1.1",
+    "langgraph": "1.2.12",
+    "faiss-cpu": "1.15.1"
+  }
+}

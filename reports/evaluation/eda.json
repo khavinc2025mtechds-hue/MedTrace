@@ -1,0 +1,199 @@
+{
+  "reports": 280,
+  "missing": {
+    "mdr_report_key": 0,
+    "date_received": 0,
+    "event_date": 21,
+    "device": 0,
+    "manufacturer": 0,
+    "model": 4,
+    "product_code": 0,
+    "narrative": 0,
+    "device_problems": 280,
+    "patient_problems": 0,
+    "event_type": 0,
+    "source_url": 0,
+    "source_kind": 0,
+    "narrative_hash": 0
+  },
+  "common_terms": [
+    [
+      "reported",
+      491
+    ],
+    [
+      "patient",
+      419
+    ],
+    [
+      "involvement",
+      232
+    ],
+    [
+      "pump",
+      210
+    ],
+    [
+      "device",
+      191
+    ],
+    [
+      "customer",
+      176
+    ],
+    [
+      "event",
+      151
+    ],
+    [
+      "mmt",
+      96
+    ],
+    [
+      "information",
+      93
+    ],
+    [
+      "infusion",
+      92
+    ],
+    [
+      "error",
+      90
+    ],
+    [
+      "additional",
+      84
+    ],
+    [
+      "product",
+      82
+    ],
+    [
+      "iv",
+      80
+    ],
+    [
+      "observed",
+      79
+    ],
+    [
+      "provided",
+      70
+    ],
+    [
+      "failure",
+      68
+    ],
+    [
+      "repair",
+      65
+    ],
+    [
+      "harm",
+      59
+    ],
+    [
+      "service",
+      59
+    ],
+    [
+      "issue",
+      55
+    ],
+    [
+      "line",
+      54
+    ],
+    [
+      "return",
+      54
+    ],
+    [
+      "rate",
+      53
+    ],
+    [
+      "channel",
+      51
+    ],
+    [
+      "medical",
+      49
+    ],
+    [
+      "pumps",
+      46
+    ],
+    [
+      "module",
+      45
+    ],
+    [
+      "maintenance",
+      42
+    ],
+    [
+      "air",
+      41
+    ]
+  ],
+  "trends": {
+    "monthly": [
+      {
+        "month": "2025-01",
+        "reports": 15
+      },
+      {
+        "month": "2025-02",
+        "reports": 15
+      },
+      {
+        "month": "2025-03",
+        "reports": 15
+      },
+      {
+        "month": "2025-04",
+        "reports": 15
+      },
+      {
+        "month": "2025-05",
+        "reports": 15
+      },
+      {
+        "month": "2025-06",
+        "reports": 15
+      },
+      {
+        "month": "2025-07",
+        "reports": 15
+      },
+      {
+        "month": "2025-08",
+        "reports": 15
+      },
+      {
+        "month": "2025-09",
+        "reports": 15
+      },
+      {
+        "month": "2025-10",
+        "reports": 15
+      },
+      {
+        "month": "2025-11",
+        "reports": 15
+      },
+      {
+        "month": "2025-12",
+        "reports": 115
+      }
+    ],
+    "total_reports": 280,
+    "scope": "all infusion-pump records in loaded corpus",
+    "spike": true,
+    "score_eligible": false,
+    "interpretation": "Descriptive report counts only. Incomplete sampling and reporting bias prevent incidence estimates.",
+    "last_month_vs_prior_mean": 100.0
+  }
+}
